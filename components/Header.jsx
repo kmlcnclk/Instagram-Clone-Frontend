@@ -46,7 +46,7 @@ function Header() {
           />
           <div className="relative">
             <div className="w-[19.8px] h-[19.8px] bg-white mt-2 rotate-45 absolute z-0 left-1/2 -translate-x-1/2 shadow-2xl"></div>
-            <div className="w-[375px] h-[362px] bg-white mt-3 absolute left-1/2 z-10 rounded-md -translate-x-1/2 shadow-sm pt-3 overflow-y-auto">
+            <div className="w-[375px] h-[362px] bg-white mt-3 absolute left-1/2 z-20 rounded-md -translate-x-1/2 shadow-sm pt-3 overflow-y-auto">
               <div className="flex justify-between items-center px-4">
                 <p className="text-black font-semibold">Recent</p>
                 <p className="text-[#0095f6] font-semibold text-sm cursor-pointer">
