@@ -20,7 +20,7 @@ function Header() {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[60px] px-52 py-5 flex justify-between items-center border-b-[1px] border-[#dbdbdb]"
+      className="w-full h-[60px] px-52 py-5 flex justify-between items-center border-b-[1px] bg-white border-[#dbdbdb] fixed left-0 top-0 z-50"
     >
       <div className="w-1/3 flex items-center">
         <NextLink href="/">

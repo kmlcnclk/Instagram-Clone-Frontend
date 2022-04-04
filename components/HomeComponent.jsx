@@ -48,7 +48,7 @@ class HomeComponent extends Component {
     return (
       <div>
         <Header />
-        <div className="min-h-screen bg-[#fafafa] py-6 px-52 flex">
+        <div className="min-h-screen bg-[#fafafa] py-6 px-52 flex mt-[60px]">
           <div>
             <div className="relative mr-7">
               <div
@@ -57,7 +57,7 @@ class HomeComponent extends Component {
               >
                 {prev1 && (
                   <button
-                    className="absolute z-10 top-[59.5px] bg-white h-6 w-6 drop-shadow-lg -translate-y-1/2 text-black flex justify-center items-center rounded-full left-3"
+                    className="absolute z-10 top-[59.5px] bg-white h-6 w-6 drop-shadow-lg -translate-y-1/2 text-black flex justify-center items-center rounded-full left-3 shadow-md"
                     onClick={this.slideStoriesPrev1}
                   >
                     <Icon name="prev" size={24} />
@@ -66,7 +66,7 @@ class HomeComponent extends Component {
                 {next1 && (
                   <button
                     onClick={this.slideStoriesNext1}
-                    className="absolute z-10 top-[59.5px] bg-white h-6 w-6 drop-shadow-lg -translate-y-1/2 text-black flex justify-center items-center rounded-full right-3"
+                    className="absolute z-10 top-[59.5px] bg-white h-6 w-6 drop-shadow-lg -translate-y-1/2 text-black flex justify-center items-center rounded-full right-3 shadow-md"
                   >
                     <Icon name="next" size={24} />
                   </button>
@@ -299,7 +299,7 @@ class HomeComponent extends Component {
             </div>
             <div>Posts</div>
           </div>
-          <div className="w-[293px] h-[358px] mt-6">
+          <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] right-52">
             <div className="flex justify-between items-center">
               <div className="flex justify-between items-center space-x-4">
                 <NextImage
@@ -341,7 +341,7 @@ class HomeComponent extends Component {
                     priority="true"
                   />
                   <div>
-                    <p className="text-sm font-semibold cursor-pointer">
+                    <p className="text-sm font-semibold cursor-pointer hover:underline">
                       solarkeem
                     </p>
                     <p className="text-xs text-[#989898]">Folows you</p>
@@ -351,6 +351,7 @@ class HomeComponent extends Component {
                   Follow
                 </p>
               </div>
+
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                   <NextImage
@@ -363,7 +364,7 @@ class HomeComponent extends Component {
                     priority="true"
                   />
                   <div>
-                    <p className="text-sm font-semibold cursor-pointer">
+                    <p className="text-sm font-semibold cursor-pointer hover:underline">
                       solarkeem
                     </p>
                     <p className="text-xs text-[#989898]">Folows you</p>
@@ -373,6 +374,7 @@ class HomeComponent extends Component {
                   Follow
                 </p>
               </div>
+
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                   <NextImage
@@ -385,7 +387,7 @@ class HomeComponent extends Component {
                     priority="true"
                   />
                   <div>
-                    <p className="text-sm font-semibold cursor-pointer">
+                    <p className="text-sm font-semibold cursor-pointer hover:underline">
                       solarkeem
                     </p>
                     <p className="text-xs text-[#989898]">Folows you</p>
@@ -395,6 +397,7 @@ class HomeComponent extends Component {
                   Follow
                 </p>
               </div>
+
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                   <NextImage
@@ -407,7 +410,7 @@ class HomeComponent extends Component {
                     priority="true"
                   />
                   <div>
-                    <p className="text-sm font-semibold cursor-pointer">
+                    <p className="text-sm font-semibold cursor-pointer hover:underline">
                       solarkeem
                     </p>
                     <p className="text-xs text-[#989898]">Folows you</p>
@@ -417,6 +420,7 @@ class HomeComponent extends Component {
                   Follow
                 </p>
               </div>
+
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                   <NextImage
@@ -429,7 +433,7 @@ class HomeComponent extends Component {
                     priority="true"
                   />
                   <div>
-                    <p className="text-sm font-semibold cursor-pointer">
+                    <p className="text-sm font-semibold cursor-pointer hover:underline">
                       solarkeem
                     </p>
                     <p className="text-xs text-[#989898]">Folows you</p>
