@@ -49,9 +49,9 @@ class HomeComponent extends Component {
     return (
       <div>
         <Header />
-        <div className="min-h-screen bg-[#fafafa] py-6 xs:px-4 md:px-10 lg:px-10 xl:px-52 flex mt-[60px]">
+        <div className="min-h-screen bg-[#fafafa] py-6 xs:px-0 md:px-10 lg:px-10 xl:px-52 flex xs:mt-8 md:mt-[60px]">
           <div>
-            <div className="relative mr-7">
+            <div className="relative">
               <div
                 ref={storiesRef}
                 className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
@@ -298,7 +298,7 @@ class HomeComponent extends Component {
                 </div>
               </div>
             </div>
-            <div className="mt-6 space-y-6">
+            <div className="mt-6 space-y-6 xs:w-[425px] md:w-[614px]">
               <PostCard />
               <PostCard />
               <PostCard />
@@ -470,4 +470,5 @@ class HomeComponent extends Component {
     );
   }
 }
+
 export default HomeComponent;
