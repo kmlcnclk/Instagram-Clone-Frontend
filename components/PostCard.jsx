@@ -5,7 +5,7 @@ import { Input } from '@chakra-ui/react';
 
 function PostCard() {
   return (
-    <div className="w-[614px] border-[1px] border-[#dbdbdb] h-auto">
+    <div className=" xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] border-[1px] border-[#dbdbdb] h-auto">
       <div className="flex justify-between items-center m-4">
         <div className="flex justify-start items-center space-x-4">
           <NextImage
@@ -22,11 +22,12 @@ function PostCard() {
         <Icon name="threePointIcon" size={24} color="#262626" />
       </div>
       <NextImage
-        src="/profile_image.png"
+        src="/kelli.jpg"
         alt="Profile Image"
-        width="614px"
-        height="614px"
+        width="684px"
+        height="684px"
         objectFit="contain"
+        className="md:w-[685px] lg:w-[614px] xl:w-[614px]"
         priority="true"
       />
       <div className="space-y-4 m-4">

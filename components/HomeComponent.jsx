@@ -49,12 +49,12 @@ class HomeComponent extends Component {
     return (
       <div>
         <Header />
-        <div className="min-h-screen bg-[#fafafa] py-6 px-52 flex mt-[60px]">
+        <div className="min-h-screen bg-[#fafafa] py-6 xs:px-4 md:px-10 lg:px-10 xl:px-52 flex mt-[60px]">
           <div>
             <div className="relative mr-7">
               <div
                 ref={storiesRef}
-                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
+                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
               >
                 {prev1 && (
                   <button
@@ -305,7 +305,7 @@ class HomeComponent extends Component {
               <PostCard />
             </div>
           </div>
-          <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] right-52">
+          <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] xs:hidden lg:block xl:block lg:right-14 xl:right-52 2xl:right-72">
             <div className="flex justify-between items-center">
               <div className="flex justify-between items-center space-x-4">
                 <NextImage
