@@ -8,6 +8,11 @@ import {
   CancelIcon,
   PrevIcon,
   NextIcon,
+  ThreePointIcon,
+  CommentIcon,
+  ShareIcon,
+  CollectionIcon,
+  SmileIcon,
 } from './Icons';
 
 const Icon = ({ name, size, height, width, onClickFunc, color, className }) => {
@@ -21,6 +26,11 @@ const Icon = ({ name, size, height, width, onClickFunc, color, className }) => {
     cancelIcon: CancelIcon,
     prev: PrevIcon,
     next: NextIcon,
+    threePointIcon: ThreePointIcon,
+    commentIcon: CommentIcon,
+    shareIcon: ShareIcon,
+    collectionIcon: CollectionIcon,
+    smileIcon: SmileIcon,
   };
 
   const Component = icons[name];

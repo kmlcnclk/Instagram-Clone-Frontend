@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import NextImage from 'next/image';
 import Icon from '../src/Icon';
+import PostCard from './PostCard';
 
 class HomeComponent extends Component {
   componentDidMount = () => {
@@ -297,7 +298,12 @@ class HomeComponent extends Component {
                 </div>
               </div>
             </div>
-            <div>Posts</div>
+            <div className="mt-6 space-y-6">
+              <PostCard />
+              <PostCard />
+              <PostCard />
+              <PostCard />
+            </div>
           </div>
           <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] right-52">
             <div className="flex justify-between items-center">

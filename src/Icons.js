@@ -242,3 +242,119 @@ export const NextIcon = ({ size }) => {
     </svg>
   );
 };
+
+export const ThreePointIcon = ({ size, color, className }) => {
+  return (
+    <svg
+      aria-label="More options"
+      color="#262626"
+      role="img"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill={color}
+      className={className}
+    >
+      <circle cx="12" cy="12" r="1.5"></circle>
+      <circle cx="6" cy="12" r="1.5"></circle>
+      <circle cx="18" cy="12" r="1.5"></circle>
+    </svg>
+  );
+};
+
+export const CommentIcon = ({ size, color, className }) => {
+  return (
+    <svg
+      aria-label="Comment"
+      color="#262626"
+      role="img"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill={color}
+      className={className}
+    >
+      <path
+        d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z"
+        fill="none"
+        stroke="currentColor"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      ></path>
+    </svg>
+  );
+};
+
+export const ShareIcon = ({ size, color, className }) => {
+  return (
+    <svg
+      aria-label="Share Post"
+      color="#262626"
+      role="img"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill={color}
+      className={className}
+    >
+      <line
+        fill="none"
+        stroke="currentColor"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        x1="22"
+        x2="9.218"
+        y1="3"
+        y2="10.083"
+      ></line>
+      <polygon
+        fill="none"
+        points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+        stroke="currentColor"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      ></polygon>
+    </svg>
+  );
+};
+
+export const CollectionIcon = ({ size, color, className }) => {
+  return (
+    <svg
+      aria-label="Save"
+      color="#262626"
+      role="img"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill={color}
+      className={className}
+    >
+      <polygon
+        fill="none"
+        points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      ></polygon>
+    </svg>
+  );
+};
+
+export const SmileIcon = ({ size, color, className }) => {
+  return (
+    <svg
+      aria-label="Emoji"
+      color="#262626"
+      role="img"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill={color}
+      className={className}
+    >
+      <path d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z"></path>
+    </svg>
+  );
+};
