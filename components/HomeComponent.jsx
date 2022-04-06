@@ -54,7 +54,7 @@ class HomeComponent extends Component {
             <div className="relative">
               <div
                 ref={storiesRef}
-                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] 3xs:w-[320px] 2xs:w-[375px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
+                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] 3xs:w-screen md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
               >
                 {prev1 && (
                   <button
@@ -394,7 +394,7 @@ class HomeComponent extends Component {
                 </div>
               </div>
             </div>
-            <div className="mt-6 space-y-6 3xs:w-[320px] 2xs-:w-[375px] xs:w-[425px] md:w-[614px]">
+            <div className="mt-6 space-y-6 3xs:w-screen md:w-[614px]">
               <PostCard />
               <PostCard />
               <PostCard />
