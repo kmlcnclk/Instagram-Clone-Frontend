@@ -182,7 +182,7 @@ export const CancelIcon = ({ size, color, className }) => {
   return (
     <svg
       aria-label="Close"
-      color="#8e8e8e"
+      color={color}
       role="img"
       viewBox="0 0 24 24"
       width={size}

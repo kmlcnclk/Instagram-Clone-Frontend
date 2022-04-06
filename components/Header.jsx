@@ -105,7 +105,7 @@ function Header() {
             </div>
           </div>
         ) : (
-          <div className="md:2/5 lg:w-1/3 xl:w-1/3  flex justify-center items-center">
+          <div className="w-[268px] flex justify-center items-center">
             <div
               className="bg-[#efefef] w-[268px] h-9 flex justify-start px-3 space-x-3 cursor-text items-center rounded-md"
               onClick={() => setSearchState(!searchState)}
