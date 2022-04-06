@@ -5,7 +5,7 @@ import { Input } from '@chakra-ui/react';
 
 function PostCard() {
   return (
-    <div className=" xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] border-[1px] border-[#dbdbdb] h-auto">
+    <div className="3xs:w-[320px] 2xs:w-[375px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] border-[1px] border-[#dbdbdb] h-auto">
       <div className="flex justify-between items-center m-4">
         <div className="flex justify-start items-center space-x-4">
           <NextImage
@@ -27,7 +27,7 @@ function PostCard() {
         width="684px"
         height="684px"
         objectFit="contain"
-        className="md:w-[685px] lg:w-[614px] xl:w-[614px]"
+        className="3xs:w-[320px] 2xs:w-[375px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px]"
         priority="true"
       />
       <div className="space-y-4 m-4">

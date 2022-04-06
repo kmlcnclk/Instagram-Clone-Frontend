@@ -20,9 +20,9 @@ function Header() {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[60px] xs:px-4 lg:px-10 xl:px-52 py-5 flex justify-between items-center border-b-[1px] bg-white border-[#dbdbdb] fixed left-0 top-0 z-50"
+      className="w-full h-[60px] 3xs:px-4 lg:px-10 xl:px-52 py-5 flex justify-between items-center border-b-[1px] bg-white border-[#dbdbdb] fixed left-0 top-0 z-50"
     >
-      <div className="xs:w-1/3 md:1/5 lg:w-1/3 xl:w-1/3 flex items-center">
+      <div className="3xs:w-1/3 md:1/5 lg:w-1/3 xl:w-1/3 flex items-center">
         <NextLink href="/">
           <a className="h-[29px]">
             <NextImage
@@ -36,7 +36,7 @@ function Header() {
           </a>
         </NextLink>
       </div>
-      <div className="xs:hidden sm:block md:block lg:block x:block">
+      <div className="3xs:hidden sm:block md:block lg:block x:block">
         {searchState ? (
           <div>
             <input
@@ -117,7 +117,7 @@ function Header() {
         )}
       </div>
 
-      <div className="flex items-center space-x-5 xs:w-2/3 md:2/5 lg:w-1/3 xl:w-1/3 xs:pr-3 sm:pr-0 lg:pr-3 xl:pr-0 lg:pl-0 xl:pl-6 xs:justify-end xl:justify-start">
+      <div className="flex items-center 3xs:space-x-2 sm:space-x-5 3xs:w-2/3 md:2/5 lg:w-1/3 xl:w-1/3 3xl:pr-0 lg:pr-3 xl:pr-0 lg:pl-0 xl:pl-6 3xs:justify-end xl:justify-start">
         <Icon
           name="homeFillIcon"
           color="#262626"

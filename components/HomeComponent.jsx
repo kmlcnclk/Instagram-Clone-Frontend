@@ -36,11 +36,11 @@ class HomeComponent extends Component {
   };
 
   slideStoriesPrev1 = () => {
-    this.props.storiesRef.current.scrollLeft -= 307;
+    this.props.storiesRef.current.scrollLeft -= 300;
     // this.props.storiesRef.current.scrollLeft;
   };
   slideStoriesNext1 = () => {
-    this.props.storiesRef.current.scrollLeft += 307;
+    this.props.storiesRef.current.scrollLeft += 300;
     // this.props.storiesRef.current.offsetWidth;
   };
 
@@ -49,12 +49,12 @@ class HomeComponent extends Component {
     return (
       <div>
         <Header />
-        <div className="min-h-screen bg-[#fafafa] py-6 xs:px-0 md:px-10 lg:px-10 xl:px-52 flex xs:mt-8 md:mt-[60px]">
+        <div className="min-h-screen bg-[#fafafa] py-6 3xs:px-0 md:px-10 lg:px-10 xl:px-52 flex 3xs:mt-8 md:mt-[60px]">
           <div>
             <div className="relative">
               <div
                 ref={storiesRef}
-                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
+                className="flex bg-white border-[1px] border-[#dbdbdb] h-[119px] 3xs:w-[320px] 2xs:w-[375px] xs:w-[450px] md:w-[685px] lg:w-[614px] xl:w-[614px] justify-start items-center overflow-x-hidden scroll-smooth pl-1 pr-4 space-x-3"
               >
                 {prev1 && (
                   <button
@@ -124,7 +124,7 @@ class HomeComponent extends Component {
                   <ul>
                     <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
                       <NextImage
-                        src="/lisa.jpg"
+                        src="/kelli.jpg"
                         alt="Lisa"
                         width="56px"
                         height="56px"
@@ -188,7 +188,7 @@ class HomeComponent extends Component {
                   <ul>
                     <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
                       <NextImage
-                        src="/lisa.jpg"
+                        src="/kelli.jpg"
                         alt="Lisa"
                         width="56px"
                         height="56px"
@@ -252,7 +252,7 @@ class HomeComponent extends Component {
                   <ul>
                     <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
                       <NextImage
-                        src="/lisa.jpg"
+                        src="/kelli.jpg"
                         alt="Lisa"
                         width="56px"
                         height="56px"
@@ -285,6 +285,102 @@ class HomeComponent extends Component {
                     <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
                       <NextImage
                         src="/lisa.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/lisa.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/kelli.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/lisa.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/lisa.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/lisa.jpg"
+                        alt="Lisa"
+                        width="56px"
+                        height="56px"
+                        objectFit="cover"
+                        priority="true"
+                        className="w-11 h-11 rounded-full"
+                      />
+                    </li>
+                    <li className="text-xs mt-1 truncate w-14">lalalalisa_m</li>
+                  </ul>
+                </div>
+                <div className="cursor-pointer">
+                  <ul>
+                    <li className="w-[62px] h-[62px] border-2 border-[#d82c7c] rounded-full flex items-center justify-center">
+                      <NextImage
+                        src="/kelli.jpg"
                         alt="Lisa"
                         width="56px"
                         height="56px"
@@ -298,14 +394,14 @@ class HomeComponent extends Component {
                 </div>
               </div>
             </div>
-            <div className="mt-6 space-y-6 xs:w-[425px] md:w-[614px]">
+            <div className="mt-6 space-y-6 3xs:w-[320px] 2xs-:w-[375px] xs:w-[425px] md:w-[614px]">
               <PostCard />
               <PostCard />
               <PostCard />
               <PostCard />
             </div>
           </div>
-          <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] xs:hidden lg:block xl:block lg:right-14 xl:right-52 2xl:right-72">
+          <div className="w-[293px] h-[358px] mt-6 fixed top-[88px] 3xs:hidden lg:block xl:block lg:right-14 xl:right-52 2xl:right-72">
             <div className="flex justify-between items-center">
               <div className="flex justify-between items-center space-x-4">
                 <NextImage
