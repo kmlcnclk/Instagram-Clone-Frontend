@@ -1,0 +1,371 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border: #333 4px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  outline: 0;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.box::before {
+  content: url(http://localhost:3000/_next/image?url=%2FInstagram_white.png&w=128&q=75);
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  left: -50%;
+  bottom: -50%;
+  background-color: white;
+  border-radius: 45%;
+  /* animation: spin 6s ease-in-out 1; */
+  /* animation: spin 6s ease 0s 1 normal forwards; */
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+  to {
+    transform: translateY(-100%) rotate(500deg);
+    top: 10;
+  }
+}
+.asd0 {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: -200px;
+}
+.asdx {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: 100%;
+}
+
+.asd1 {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: 200px;
+}
+
+.asd3 {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: 74%;
+}
+
+.asd4 {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: 20px;
+}
+
+.asd5 {
+  width: 170px;
+  height: 240px;
+  background-color: red;
+  position: absolute;
+  right: 87%;
+}
+
+.asd2 {
+  width: 400px;
+  height: 600px;
+  background-color: red;
+  position: absolute;
+  right: 500px;
+}
+
+.asd_right_to_left1 {
+  animation-name: right_to_left1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right1 {
+  animation-name: left_to_right1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left1 {
+  from {
+    /* transform: translateY(0) rotate(0deg); */
+    width: 170px;
+    height: 240px;
+
+    right: 200px;
+  }
+  to {
+    /* transform: translateY(-100%) rotate(500deg); */
+    /* top: 10; */
+    width: 400px;
+    height: 600px;
+    right: 500px;
+  }
+}
+@keyframes left_to_right1 {
+  from {
+    /* transform: translateY(0) rotate(0deg); */
+    width: 400px;
+    height: 600px;
+    right: 500px;
+  }
+  to {
+    /* transform: translateY(-100%) rotate(500deg); */
+    /* top: 10; */
+    width: 170px;
+    height: 240px;
+    right: 74%;
+  }
+}
+
+.asd_right_to_left2 {
+  animation-name: right_to_left2;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right2 {
+  animation-name: left_to_right2;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left2 {
+  from {
+    /* transform: translateY(0) rotate(0deg); */
+    width: 400px;
+    height: 600px;
+
+    right: 500px;
+  }
+  to {
+    /* transform: translateY(-100%) rotate(500deg); */
+    /* top: 10; */
+    width: 170px;
+    height: 240px;
+    right: 200px;
+  }
+}
+@keyframes left_to_right2 {
+  from {
+    /* transform: translateY(0) rotate(0deg); */
+    width: 170px;
+    height: 240px;
+    right: 74%;
+  }
+  to {
+    /* transform: translateY(-100%) rotate(500deg); */
+    /* top: 10; */
+    width: 400px;
+    height: 600px;
+    right: 500px;
+  }
+}
+
+.asd_right_to_left3 {
+  animation-name: right_to_left3;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right3 {
+  animation-name: left_to_right3;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left3 {
+  from {
+    right: 20px;
+  }
+  to {
+    right: 200px;
+  }
+}
+@keyframes left_to_right3 {
+  from {
+    right: 200px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+.asd_right_to_left4 {
+  animation-name: right_to_left4;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right4 {
+  animation-name: left_to_right4;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left4 {
+  from {
+    right: 74%;
+  }
+  to {
+    right: 87%;
+  }
+}
+@keyframes left_to_right4 {
+  from {
+    right: 87%;
+  }
+  to {
+    right: 74%;
+  }
+}
+
+.asd_right_to_left5 {
+  animation-name: right_to_left5;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right5 {
+  animation-name: left_to_right5;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left5 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 20px;
+  }
+}
+@keyframes left_to_right5 {
+  from {
+    right: 20px;
+  }
+  to {
+    right: -200px;
+  }
+}
+
+.asd_right_to_left6 {
+  animation-name: right_to_left6;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.asd_left_to_right6 {
+  animation-name: left_to_right6;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes right_to_left6 {
+  from {
+    right: 87%;
+  }
+  to {
+    right: 100%;
+  }
+}
+@keyframes left_to_right6 {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 87%;
+  }
+}

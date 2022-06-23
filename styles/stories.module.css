@@ -1,0 +1,25 @@
+.stories_page {
+  width: 200px;
+  height: 300px;
+  animation-name: stories_page;
+  animation-duration: 4s;
+}
+
+@keyframes stories_page {
+  0% {
+    width: 400px !important;
+    height: 600px !important;
+  }
+  25% {
+    width: 400px !important;
+    height: 600px !important;
+  }
+  50% {
+    width: 400px !important;
+    height: 600px !important;
+  }
+  100% {
+    width: 400px !important;
+    height: 600px !important;
+  }
+}

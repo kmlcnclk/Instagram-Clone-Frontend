@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import StoriesComponent from '../../../components/StoriesComponent';
 import Head from 'next/head';
 
